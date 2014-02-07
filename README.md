@@ -51,7 +51,7 @@ export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman"
 ```
 
 ##5. その他
-Sublime Textをコマンドラインから開く subl コマンドの設定
+~~Sublime Textをコマンドラインから開く subl コマンドの設定~~ 自動で入るらしい
 
     sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
 
