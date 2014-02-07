@@ -55,5 +55,6 @@ cask install sublime-text
 cask install vagrant
 cask install virtualbox
 cask install vlc
+cask install java
 cask install netbeans-php
 cask install mou
