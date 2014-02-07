@@ -3,7 +3,7 @@ OSXAppPackage
 
 標準開発環境パッケージ for brewdler &amp; brew+cask
 
-# インストール
+# インストール手順
 
 ##1. [Homebrew](http://brew.sh/index_ja.html)のインストール
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
@@ -15,7 +15,7 @@ OSXAppPackage
     
     気に入らなければforkしてね
     
-##3. brew bundle
+##3. brew bundleで全自動インスコトール！
     cd ~/git/OSXAppPackage
     brew bundle
     
