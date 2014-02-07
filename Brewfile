@@ -33,7 +33,10 @@ install freetype
 install jpeg
 install libpng
 install openssl
-install php53
+install php53 --without-pcntl
+install php53-xdebug
+install php53-pcntl
+install composer
 
 install brew-cask
 cask install adobe-reader
@@ -44,8 +47,6 @@ cask install gimp
 cask install github
 cask install google-chrome
 cask install google-drive
-cask install grandperspective
-cask install keyremap4macbook
 cask install openoffice-lang
 cask install sequel-pro
 cask install skitch
