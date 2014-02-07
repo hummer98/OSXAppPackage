@@ -38,7 +38,11 @@ install php53-xdebug
 install php53-pcntl
 install composer
 
+install brew-gem
+install gem cocoapods
+
 install brew-cask
+
 cask install adobe-reader
 cask install appcleaner
 cask install dropbox
