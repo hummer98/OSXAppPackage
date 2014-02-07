@@ -13,7 +13,7 @@ OSXAppPackage
     cd ~/git
     git clone https://github.com/hummer98/OSXAppPackage.git
     
-    気に入らなければforkしてね
+* 気に入らなければforkしてね
     
 ##3. brew bundleで全自動インスコトール！
     cd ~/git/OSXAppPackage
@@ -35,3 +35,23 @@ if [ $(\command -v pear) ]; then
 fi
 export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman"
 ```
+
+* /etc/pathsの設定
+  * OSXでは/etc/pathsを上から順にPATH環境変数に詰め込むので、一番上に brewのデフォルトバイナリが入る ```/usr/local/bin``` にするのを推奨。
+  * 例
+  ```
+/usr/local/bin
+~/bin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+/usr/local/opt/gnu-sed/libexec/gnubin
+/usr/local/share/npm/bin
+```
+
+##5. その他
+Sublime Textをコマンドラインから開く subl コマンドの設定
+
+    sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
+
