@@ -39,7 +39,7 @@ install php53-pcntl
 install composer
 
 install brew-gem
-install gem cocoapods
+gem cocoapods
 
 install brew-cask
 
