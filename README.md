@@ -5,11 +5,13 @@ OSXAppPackage
 
 # インストール
 
-##1. Homebrewのインストール
+##1. [Homebrew](http://brew.sh/index_ja.html)のインストール
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
     
 ##2. このリポジトリのcloneを展開
     git clone https://github.com/hummer98/OSXAppPackage.git
+    
+    気に入らなければforkしてね
     
 ##3. brew bundle
     cd OSXAppPackage
