@@ -9,12 +9,14 @@ OSXAppPackage
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
     
 ##2. このリポジトリのcloneを展開
+    mkdir ~/git
+    cd ~/git
     git clone https://github.com/hummer98/OSXAppPackage.git
     
     気に入らなければforkしてね
     
 ##3. brew bundle
-    cd OSXAppPackage
+    cd ~/git/OSXAppPackage
     brew bundle
     
 インストール中に自分のパスワードを要求される事があるので留意
