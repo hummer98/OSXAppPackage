@@ -40,12 +40,7 @@ install composer
 
 install brew-gem
 gem cocoapods
-gem vagrant-sandbox
-gem vagrant-vbguest
-gem vagrant-ansible
-gem vagrant-omnibus
-gem vagrant-digitalocean
-gem vagrant-aws
+
 gem veewee
 
 # INSTALL casks
