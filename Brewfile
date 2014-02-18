@@ -37,9 +37,14 @@ install php53 --without-pcntl
 install php53-xdebug
 install php53-pcntl
 install composer
+install python
+install ansible
 
 install brew-gem
 gem cocoapods
+
+install brew-pip
+
 
 install brew-cask
 
