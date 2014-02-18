@@ -41,10 +41,13 @@ install python
 install ansible
 
 install brew-gem
+
 gem cocoapods
+gem veewee
 
 install brew-pip
 
+# INSTALL casks
 
 install brew-cask
 
