@@ -33,17 +33,22 @@ install freetype
 install jpeg
 install libpng
 install openssl
+
 install php53 --without-pcntl
 install php53-xdebug
 install php53-pcntl
 install composer
+install phpunit
+
 install python
 install ansible
 
 install brew-gem
+install veewee
+# ENTERTAINMENT
+install id3v2
 
 gem cocoapods
-gem veewee
 
 install brew-pip
 
