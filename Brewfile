@@ -10,7 +10,7 @@ tap phinze/homebrew-cask
 tap josegonzalez/homebrew-php
 tap homebrew/dupes
 tap hummer98/homebrew-hummer98_cask
-
+tap homebrew/versions
 # Memo:
 
 install autoconf
@@ -42,13 +42,16 @@ install phpunit
 
 install python
 install ansible
+install docker
+install boot2docker
 
-install brew-gem
-install veewee
 # ENTERTAINMENT
 install id3v2
 
+install brew-gem
+
 gem cocoapods
+gem veewee
 
 install brew-pip
 
