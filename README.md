@@ -34,8 +34,9 @@ OSXAppPackage
 ###5. 多分パスワードを聞かれている状態で止まっているので、Macの自分のパスワードを入れる
 
 ###6. PATHの設定
+
 * ~/.bash_profileに追記
-```
+  ```
 f [ -d $HOME/.rbenv/bin ]; then
     export RBENV_ROOT=$HOME/.rbenv
     export PATH="$RBENV_ROOT/bin:$PATH"
