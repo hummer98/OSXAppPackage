@@ -78,3 +78,6 @@ cask install vlc
 cask install java
 cask install netbeans-php
 cask install mou
+cask install alfred
+cask install bettertouchtool
+cask install firefox
