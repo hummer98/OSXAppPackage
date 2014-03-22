@@ -70,7 +70,7 @@ cask install sourcetree
 cask install sublime-text
 cask install vagrant
 cask install virtualbox
-cask install netbeans-php
+cask install netbeans-php-ja
 cask install mou
 cask install alfred
 cask install bettertouchtool
