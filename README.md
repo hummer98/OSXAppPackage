@@ -7,7 +7,7 @@ OSXAppPackage
 
 * XCodeインストール済
 * OSX Marvericks アップデート済
- 
+
 ## 所用時間
 
 * 初期インストールの場合,20〜40分程度かかります
@@ -16,18 +16,18 @@ OSXAppPackage
 
 ###1. [Homebrew](http://brew.sh/index_ja.html)のインストール
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-    
+
 ###2. このリポジトリのcloneを展開
     mkdir ~/git
     cd ~/git
     git clone https://github.com/hummer98/OSXAppPackage.git
-    
+
 * 気に入らなければforkしてね
-    
+
 ###3. brew bundleで全自動インスコトール！
     cd ~/git/OSXAppPackage
     brew bundle
-    
+
 
 ###4. お昼ごはんに行く (20-40分かかります)
 
@@ -57,7 +57,7 @@ export ANSIBLE_HOSTS=./hosts
 * /etc/pathsの設定
   * OSXでは/etc/pathsを上から順にPATH環境変数に詰め込むので、一番上に brewのデフォルトバイナリが置いてあるフォルダを指すように変更する `/usr/local/bin` にするのを推奨。
   * 例
-  
+
     ```
 /usr/local/bin
 ~/bin
@@ -73,9 +73,8 @@ export ANSIBLE_HOSTS=./hosts
 
 ```
 vagrant plugin install sahara
-vagrant plugin install vagrant-ansible
-vagrant plugin install vagrant-omnibus
 vagrant plugin install vagrant-vbguest
+vagrant plugin install vagrant-hostsupdater
 ```
 
 ###8. その他
