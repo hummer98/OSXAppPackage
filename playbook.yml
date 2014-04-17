@@ -1,0 +1,12 @@
+- hosts: 127.0.0.1
+  connection: local
+  gather_facts: no
+
+# @see http://qiita.com/hnakamur/items/c7c4f7277c07a14a4a59
+
+  tasks:
+  - name: スクリーンショットの保存フォルダを~/Pictures/ScreenShotsに変更します
+    shell: /usr/bin/defaults write com.apple.screencapture location ~/Pictures/ScreenShots; killall SystemUIServer
+
+  - name: Alcatrazをチェックアウトします
+    git:: source=https://github.com/supermarin/Alcatraz.git dest=~/git/Alcatraz
