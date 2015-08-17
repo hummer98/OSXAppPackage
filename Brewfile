@@ -39,7 +39,7 @@ install pstree
 install node
 
 # For Orange
-install php53 --without-pcntl
+install php53
 install php53-xdebug
 install php53-pcntl
 install composer
